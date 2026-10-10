@@ -9,6 +9,6 @@ int main() {
     int b = 0;
     printf("Введите 2 целых числа:");
     scanf("%d%d", &a, &b);
-    printf("%d\n", a + b);
+    printf("%d\n", a - b);
     return 0;
 }
