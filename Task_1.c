@@ -8,6 +8,7 @@ int main() {
     int a = 0;
     int b = 0;
     printf("Введите 2 целых числа:");
-    scanf("%d", &a, &b);
+    scanf("%d%d", &a, &b);
+    printf("%d\n", a + b);
     return 0;
 }
